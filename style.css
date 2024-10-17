@@ -1,0 +1,36 @@
+.figure {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.square {
+    background-color: blue;
+}
+
+.circle {
+    background-color: green;
+    border-radius: 50%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+
+.rectangle {
+    background-color: purple;
+}
+
+.parallelogram {
+    background-color: orange;
+    padding-bottom: 50px;
+    padding-left: 25px;
+}
